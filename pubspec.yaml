@@ -1,0 +1,39 @@
+name: donezoid
+description: A modern, advanced To-Do Task Manager app.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  provider: ^6.0.5
+  shared_preferences: ^2.2.0
+  intl: ^0.18.1
+  cupertino_icons: ^1.0.2
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  path_provider: ^2.0.15
+  uuid: ^4.0.0
+  flutter_local_notifications: ^15.1.1
+  speech_to_text: ^6.3.0
+  confetti: ^0.7.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  hive_generator: ^2.0.0
+  build_runner: ^2.4.6
+
+flutter:
+  uses-material-design: true
+  generate: true
+
+  assets:
+    - lib/localization/

@@ -1,0 +1,12 @@
+{
+  "appTitle": "Donezoid",
+  "myTasksTitle": "Mis Tareas",
+  "createTaskTitle": "Crear Tarea",
+  "settingsTitle": "Configuración",
+  "tasksTabAll": "Todas",
+  "tasksTabCompleted": "Completadas",
+  "tasksTabPending": "Pendientes",
+  "bottomNavTasks": "Tareas",
+  "bottomNavCreate": "Crear",
+  "bottomNavSettings": "Configuración"
+}
